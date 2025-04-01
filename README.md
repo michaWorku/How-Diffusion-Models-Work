@@ -13,7 +13,7 @@ This repository includes structured notes and fully functional Jupyter notebooks
 
 ## Course Content
 
-### 1. [**Diffusion Model Sampling**]()
+### 1. [**Diffusion Model Sampling**](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L1_Sampling.ipynb)
 - **Model Definition**: Implements a **U-Net architecture** with context conditioning for denoising images.
 - **Diffusion Process Setup**:
   - Defines **timesteps, noise schedules, and feature dimensions**.
@@ -24,7 +24,7 @@ This repository includes structured notes and fully functional Jupyter notebooks
 - **Visualization**:
   - Generates and animates sampled images.
 
-### 2. [**Diffusion Model Training**]()
+### 2. [**Diffusion Model Training**](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L2_Training.ipynb)
 - **Model Architecture**:
   - Uses **U-Net** with **residual convolutional blocks**.
   - Embeds time information and optional context.
@@ -37,7 +37,7 @@ This repository includes structured notes and fully functional Jupyter notebooks
   - Loads trained models and generates sample images.
   - Creates animations of generated outputs at different training epochs.
 
-### 3. [**Contextual Control in Diffusion Models**]()
+### 3. [**Contextual Control in Diffusion Models**](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L3_Context.ipynb)
 - **Extends U-Net with Context Embeddings**:
   - Enables **controllable image generation** based on class labels.
   - Incorporates **context dropout** during training.
@@ -50,7 +50,7 @@ This repository includes structured notes and fully functional Jupyter notebooks
   - Generates images conditioned on specific categories.
   - Implements **context mixing** to create hybrid images.
 
-### 4. [**Fast Sampling in Diffusion Models**]()
+### 4. [**Fast Sampling in Diffusion Models**](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L4_FastSampling.ipynb)
 - **Optimized Sampling with DDIM**:
   - Introduces **Denoising Diffusion Implicit Models (DDIM)** to speed up inference.
   - Removes noise **without adding additional stochastic noise**.
@@ -63,10 +63,10 @@ This repository includes structured notes and fully functional Jupyter notebooks
   - Generates and visualizes images efficiently.
 
 ## Notebooks
-- 📂 [`L1_Sampling.ipynb`]() – Implements **basic diffusion model sampling**.
-- 📂 [`L2_Training.ipynb`]() – Covers **training a diffusion model from scratch**.
-- 📂 [`L3_Context.ipynb`]() – Explores **context-aware diffusion models**.
-- 📂 [`L4_FastSampling.ipynb`]() – Demonstrates **fast sampling techniques using DDIM**.
+- 📂 [`L1_Sampling.ipynb`](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L1_Sampling.ipynb) – Implements **basic diffusion model sampling**.
+- 📂 [`L2_Training.ipynb`](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L2_Training.ipynb) – Covers **training a diffusion model from scratch**.
+- 📂 [`L3_Context.ipynb`](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L3_Context.ipynb) – Explores **context-aware diffusion models**.
+- 📂 [`L4_FastSampling.ipynb`](https://github.com/michaWorku/How-Diffusion-Models-Work/blob/main/L4_FastSampling.ipynb) – Demonstrates **fast sampling techniques using DDIM**.
 
 ## Getting Started
 
